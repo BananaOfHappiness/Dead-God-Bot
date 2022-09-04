@@ -1,4 +1,3 @@
-from sre_constants import MAGIC
 import requests
 import time
 import re
@@ -61,4 +60,4 @@ def download_pics():
     print('Done!')
 
 if __name__ == '__main__':
-    get_desc('The Bible')
+    download_pics()
