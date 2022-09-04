@@ -31,7 +31,7 @@ async def get_description(message: types.message):
     Item_Judas_BR1 = Item_Judas_BR
     Item_Bugs1 = Item_Bugs
     if Item_Name != 'None, Pls try again':
-        with open('Dead God Bot/downloads/'+ Item_Name +'.png', 'rb') as f:
+        with open('downloads/'+ Item_Name +'.png', 'rb') as f:
             Image = f.read()
             if Item_Syn !='':
                 Main_Menu.insert(Learn_More_Button)
