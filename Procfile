@@ -1,2 +1,2 @@
-web: python tg_bot.py < parser.py
-worker: python tg_bot.py < parser.py
+web: python tg_bot.py 
+worker: python tg_bot.py
