@@ -19,7 +19,7 @@ Message_Data = []
 
 @dp.message_handler(commands = ['start', 'help'])
 async def help(message: types.message):
-    await message.answer('Бот основан на сайте dead-god.ru и использует информацию с него. \n Привет! Введи название предмета, а я покажу его описание! \n Чтобы внести вклад в проект напиши /git')
+    await message.answer('Бот основан на сайте dead-god.ru и использует информацию с него. \n\nПривет! Введи название предмета, а я покажу его описание! \n\nЧтобы внести вклад в проект напиши /git')
 
 @dp.message_handler(commands = ['git'])
 async def help(message: types.message):
