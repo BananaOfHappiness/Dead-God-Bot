@@ -19,7 +19,11 @@ Message_Data = []
 
 @dp.message_handler(commands = ['start', 'help'])
 async def help(message: types.message):
-    await message.answer('Привет! Введи название предмета, а я покажу его описание!')
+    await message.answer('Привет! Введи название предмета, а я покажу его описание! Чтобы внести вклад в проект напиши /git')
+
+@dp.message_handler(commands = ['git'])
+async def help(message: types.message):
+    await message.answer('Ссылка на гит: https://github.com/BananaOfHappiness/Dead-God-Bot')
 
 #Get Item Description
 @dp.message_handler()
